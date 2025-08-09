@@ -24,7 +24,6 @@ eject
 exfatprogs
 expect
 firefox-esr
-firefox-esr-l10n-ja
 flatpak
 fontconfig
 fonts-cantarell
