@@ -1,0 +1,3 @@
+# PCI vendor:device IDs which need the Broadcom proprietary wl driver.
+# One exact hexadecimal ID per line. Add confirmed IDs here (no inline comments).
+14e4:43a0

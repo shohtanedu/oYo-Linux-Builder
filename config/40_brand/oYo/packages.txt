@@ -161,6 +161,11 @@ libkpmcore12
 # 電力管理用ユーティリティおよびスクリプト
 pm-utils
 
+# Broadcom STA オフライン導入用
+dkms
+gcc
+linux-headers-amd64
+
 # ---- 開発用 ----
 #dconf-editor
 #galternatives

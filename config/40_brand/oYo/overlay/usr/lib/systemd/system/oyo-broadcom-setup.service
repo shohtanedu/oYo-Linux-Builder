@@ -1,0 +1,14 @@
+[Unit]
+Description=open.Yellow.os optional Broadcom STA driver setup
+Documentation=https://wiki.debian.org/wl
+After=local-fs.target systemd-udev-trigger.service
+Before=NetworkManager.service firstboot.service
+ConditionPathIsDirectory=/sys/bus/pci/devices
+
+[Service]
+Type=oneshot
+ExecStart=/usr/libexec/oyo-broadcom-setup.sh
+TimeoutStartSec=600
+
+[Install]
+WantedBy=multi-user.target

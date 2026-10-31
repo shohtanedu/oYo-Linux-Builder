@@ -189,7 +189,6 @@ firmware-nvidia-gsp
 
 # WLAN / Bluetooth
 b43-fwcutter
-broadcom-sta-dkms
 firmware-atheros
 firmware-brcm80211
 firmware-iwlwifi
